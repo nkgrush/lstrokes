@@ -7,9 +7,9 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
 # defaults
-HNPOLY = 12         # image height will contain HNPOLY polygons
-COEF = 0.260451     # [0, 1) move verteces coef dist as ratio to next vert
-NCOLORS = 64        # reduce pallete to NCOLORS
+HNPOLY = 64         # image height will contain HNPOLY polygons
+COEF = 0.560451     # [0, 1) move verteces coef dist as ratio to next vert
+NCOLORS = 128        # reduce pallete to NCOLORS
 
 
 class Grid():
